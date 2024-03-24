@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tencent.wxcloudrun.dao.JietianDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.tencent.wxcloudrun.entity.JietianEntity" id="jietianMap">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="time" column="time"/>
+        <result property="addr" column="addr"/>
+        <result property="map" column="map"/>
+        <result property="gap" column="gap"/>
+        <result property="pic" column="pic"/>
+    </resultMap>
+
+
+</mapper>
